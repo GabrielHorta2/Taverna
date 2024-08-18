@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    height: 60px;
+    color: #EFD447;
+    border: 0;
+    font-family: Abhaya Libre ExtraBold;
+ 
+   
+    
+    
+}
+a{
+
+    text-decoration: none;
+}
+header a{
+
+    text-decoration: none;
+    
+   
+}
+body {
+    background-color: #1F1F1F;
+    margin: 0;
+    border: 0;
+    
+    font-size: 16px;
+}
+
+header {
+    font-size: 30px;
+    padding: 10px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+header img {
+    height: 43px;
+    width: 45px;
+    position: relative;
+    left: -20px;
+}
+
+#celular {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#bandeira{
+    margin-left: 20px;
+}
+h6 {
+    font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 30px;
+    text-decoration: underline 1px;
+}
+#flex_lupa{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#flex_lupa img{
+    height: 20px;
+}
+
+
+#text_cima {
+    font-size: 30px;
+    text-decoration: none;
+    font-family: "Sancreek", serif;
+}
+
+#fundo {
+    background-image: url(imgdelivery/image\ 6.png);
+ 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 160vh;
+    
+    
+    
+}
+#bege{
+    background-color: #D9A977;
+    background-image: url(imgdelivery/image\ 8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+    width: 100%;
+    height: 7vh;
+}
+#Tavern_baixo{
+    background-color: black;
+    border: solid 1px;
+    margin-left: -25px;
+    width: 482px;
+    height: 46px;
+    border-radius: 50px;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-left: 38px;
+    font-family: "Sancreek", serif;
+}
+#T_somos{
+    position: absolute;
+    background-color: black;
+    height: 45px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 23px;
+    text-decoration: underline 1px;
+    width: 100%;
+    font-family: "Sancreek", serif;
+}
+#flex_itens{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#grid{
+   
+ 
+   
+   /* place-items: center; esse e o cdigo muito bom que eu havia esquecido*/
+ 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 140vh;
+    text-align: center;
+  
+    
+}
+.imgLado{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    font-family: "Sancreek", serif;
+    font-weight: 400;
+    margin-top: 7px;
+}
+
+#flex_placas{
+    grid-column: 2; 
+   grid-row: 1;
+
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    height: 100%;
+    justify-content: start;
+}
+#flex_placas img{
+    width: 310px;
+    height: 310px;
+}
+
+
+
+/* amarelo itens*/
+
+.grid-item {
+background-color: rgba(0, 0, 0, 0.9);
+    color: #EFD447;
+    padding: 10px;
+    border-radius: 100px;
+    text-align: center;
+    width: 140px;
+    height: 30px;
+    padding-top: 7px;
+}
+.amarelo{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: #EFD447;
+    width: 160px;
+    border-radius: 100px;
+    height: 30px;
+}
+#parceiro{
+    height: 35px;
+    width: 40px;
+}
+#unidades{
+width: 50px;
+height: 40px;
+}
+#conosco{
+    width: 40px;
+    height: 35px;
+}
+.flex-container {
+   
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 453px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+ 
+ }
+
+ 
+
+#restou{
+    background-color: black;
+    border: solid 1px #AE805E;
+    margin-left: -25px;
+    width: 395px;
+    height: 46px;
+    font-weight: 700;
+    border-radius: 50px;
+    font-size: 23px;
+    padding-top: 10px;
+    padding-left: 55px;
+    position: absolute;
+    font-size: 25px;
+    text-decoration: underline 1px;
+    letter-spacing: 2px;
+}
+#flex_lado-lado{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    grid-column: 2;
+    grid-row: 1;
+    width: 350px;
+    height: 340px;
+    align-self: start; /* Alinha a imagem ao topo verticalmente */
+    justify-self: center;
+}
+#baixo_logo{
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center; /* Alinha a imagem ao topo verticalmente */
+    justify-self: center;
+    width: 300px;
+    height: 260px;
+    
+}
+#chat_marrom{
+  
+    background-color: rgba(75, 57, 41, 0.45);
+    height: 153vh;
+    width: 465px;
+    border-radius: 36px;
+  
+    gap: 25px;
+    
+}
+#chat{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(0, 0, 0, 0.90);
+    border-radius: 40px;
+    height: 140vh;
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   padding-left: 50px;
+  padding-top: 50px;
+  
+}
+#chat h4{
+    padding-top: 10px;
+    font-family: Abhaya Libre ExtraBold;
+    text-decoration: underline 1px solid;
+    font-size: 25px;
+    font-weight: 700;
+}
+#fixo{
+    position: fixed;
+}
+.Titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+input[type="text"] {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    background: none;
+    font: inherit;
+    font-size: 23px;
+    font-weight: 700;
+    width: 285px;
+}
+
+#flex_texto_lado{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+    margin-left: 950px;
+    margin-top: 80px;
+}
+
+
+
+
+#fundo-texto_lado{
+   
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 495px;
+    height: 240px;
+    border-radius: 50px;
+    border-bottom: #AE805E solid 2px ;
+    border-top: #AE805E solid 2px ;
+    border-left: #AE805E solid 1px ;
+    margin-left: 15px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 35px;
+}
+#fundo-texto_lado h5{
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: underline 1px #AE805E;
+}
+
+
+
+
+
+#flex_contato{
+    display: flex;
+    gap: 25px;
+}
+#flex_contato img{
+    height: 45px;
+}
+
