@@ -12,6 +12,9 @@ body {
     background-color: #1F1F1F;
     margin: 0;
     border: 0;
+    zoom: 90%; 
+    overflow-x: hidden; 
+
     font-size: 13px;
 }
 
@@ -60,7 +63,7 @@ h6 {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 220vh;
+    height: 245vh;
     font-family: "Sancreek", serif;
     
 }
@@ -328,7 +331,7 @@ padding-left: 5px;
     grid-template-rows: 1fr ;
     grid-template-columns: 1fr 1fr 1fr;
     width: 1050px;
-    height: 50vh;
+    height: 58vh;
     margin-top: 1100px;
     
     

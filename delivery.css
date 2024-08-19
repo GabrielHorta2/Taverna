@@ -10,6 +10,12 @@ body {
     background-color: #1F1F1F;
     margin: 0;
     border: 0;
+    zoom: 90%; 
+    overflow-x: hidden; 
+            
+          
+   
+
     
 }
 header a{
@@ -66,7 +72,7 @@ h6 {
     background-size: cover;
     margin-left: 364px;
     width: 77%;
-    height: 151vh;
+    height: 165vh;
 }
 
 #Can_madeirr {
@@ -75,7 +81,7 @@ h6 {
     background-position: center;
     background-size: cover;
     width: 375px;
-    height: 151vh;
+    height: 165vh;
 }
 
 #F_marr {
@@ -191,6 +197,7 @@ h6 {
     width: 245px;
     height: 285px;
     margin-left: 47px;
+    margin-top: -30px;
 }
 .posicionar_M{
     position: relative;
@@ -283,7 +290,7 @@ h6 {
 
 #marrom_meio {
     background-color: #513B30;
-    height: 133vh;
+    height: 145vh;
 }
 
 #grid_meio {

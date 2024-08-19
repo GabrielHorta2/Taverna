@@ -13,6 +13,10 @@ body {
     background-color: #1F1F1F;
     margin: 0;
     border: 0;
+    zoom: 90%; 
+    overflow-x: hidden; 
+
+    
     font-size: 13px;
 
 }
