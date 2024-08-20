@@ -238,15 +238,19 @@ h6 {
     .flex-container {
        
         font-size: 15px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    position: absolute;
-    margin-top: -155px;
-   margin-left: 90px;
-     
+        display: flex;
+         flex-direction: column;
+        gap: 10px;
+         position: absolute;
+         margin-top: -155px;
+         margin-left: 90px;
+        font-family: Abhaya Libre ExtraBold;
      }
-    
+
+ .flex-containera a{
+   text-decoration: none;
+   
+}
      
       
     

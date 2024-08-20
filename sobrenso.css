@@ -83,7 +83,7 @@ h6 {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 210vh;
+    height: 215vh;
     
     
     
@@ -192,18 +192,17 @@ height: 40px;
    
   justify-content: center;
   align-items: center;
-
  position: relative;
   margin-right: 10px;
-margin-top: 485px;
-
+margin-top: 515px;
   display: flex;
   flex-direction: column;
   gap: 12px;
- 
-   
  }
 
+.flex-containera a{
+   text-decoration: none;
+}
 #espacos{
     background-color: rgba(0, 0, 0, 0.75);
     margin-top: 45px;

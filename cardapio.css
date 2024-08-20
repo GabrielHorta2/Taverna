@@ -17,6 +17,10 @@ body {
 
     font-size: 13px;
 }
+a{
+
+    text-decoration: none;
+}
 
 header {
     font-size: 30px;
@@ -400,8 +404,15 @@ flex-direction: column;
    gap: 12px;
    margin-top: -144px;
    padding-left: 93px;
+
 }
 
+     
+     
+     .flex-container a{
+        font-family: "Almendra SC", serif;
+   text-decoration: none;
+     }
 
 .grid-item {
     background-color: rgba(0, 0, 0, 0.9);
